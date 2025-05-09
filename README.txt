@@ -11,31 +11,31 @@ This Python project detects drowsiness in real time using a webcam feed. It uses
 ## Requirements
 - Python 3.x
 - Required libraries:
-  - `opencv-python`
-  - `dlib`
-  - `imutils`
-  - `scipy`
-  - `pygame`
-  - `numpy`
+  - 'opencv-python'
+  - 'dlib'
+  - 'imutils'
+  - 'scipy'
+  - 'pygame'
+  - 'numpy'
 
 ## Files Needed
-- `drowsiness_detector.py`: Main Python script
-- `shape_predictor_68_face_landmarks.dat`: Pre-trained facial landmark model
-- `haarcascade_frontalface_default.xml`: Haar cascade for face detection
-- `music.wav`: Alarm sound played on drowsiness detection
+- 'Drowsiness_Detection.py': Main Python script
+- 'shape_predictor_68_face_landmarks.dat': Pre-trained facial landmark model
+- 'haarcascade_frontalface_default.xml': Haar cascade for face detection
+- 'music.wav': Alarm sound played on drowsiness detection
 
 ## How to Run
-1. Install dependencies:
+1. Install dependencies & required libraries.
 
 2. Place all required files in the same directory.
 
-3. Run the script:
+3. Run the script: "python Drowsiness_Detecion.py" in the terminal.
 
-4. Press `Q` to quit the webcam window.
+4. Press 'Q' to quit the webcam window.
 
 ## Notes
 - Ensure good lighting for better face and eye detection.
-- Adjust `EYE_ASPECT_RATIO_THRESHOLD` in the code based on your face and camera.
+- Adjust 'EYE_ASPECT_RATIO_THRESHOLD' in the code based on your face and camera.
 - You can view EAR values in the terminal to calibrate it properly.
 
 ## Credits
