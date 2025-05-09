@@ -20,7 +20,7 @@ This Python project detects drowsiness in real time using a webcam feed. It uses
 
 ## Files Needed
 - 'Drowsiness_Detection.py': Main Python script
-- 'shape_predictor_68_face_landmarks.dat': Pre-trained facial landmark model
+- 'shape_predictor_68_face_landmarks.dat': Pre-trained facial landmark model, (please download this file from your browser, since the file size is too large it wasn't uploaded here)
 - 'haarcascade_frontalface_default.xml': Haar cascade for face detection
 - 'music.wav': Alarm sound played on drowsiness detection
 
